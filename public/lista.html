@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Lista de Jogadores</title>
+</head>
+<body>
+    <h1 id="title">Lista de Jogadores</h1>
+
+    <div id="bubble">
+        <section id="informacoes">
+            <h2>Informações da partida</h2>
+            <div id="tituloPartida"></div>
+            <div id="localPartida"></div>
+            <div id="dataHoraPartida"></div>
+        </section> 
+        <button id="button-delete" type="submit">Deletar partida</button>
+    </div>
+
+    <body>
+        <section id="main">
+            <div id="inserir-dados">   
+                <h1 id="title">Adicionar jogadores</h1>
+
+                <form action="http://localhost:3000/lista" method="post">
+                    <label for="nomeJogador"><b>Nome:</b></label>
+                    <input type="text" id="nomeJogador" name="nomeJogador" placeholder="Digite o nome da pessoa" required>
+                    
+                    <label for="telefoneJogador"><b>Telefone:</b></label>
+                    <input type="number" id="telefoneJogador" name="telefoneJogador" placeholder="Digite o número de telefone" required>
+
+                    <button id="button-dados" type="submit">Adicionar</button>
+                </form>
+            </div>
+            <br>
+            <br>
+
+            <div id="tabela-centra">
+                <table border="2" id="tabela">
+            
+
+                </table>
+            </div>
+        </section>
+    <script src="index.js"></script>
+</body>
+</html>

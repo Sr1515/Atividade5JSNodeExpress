@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css">
+    <title>Home Page</title>
+</head>
+<body>
+    
+    <div id="topo-page">
+        <h1>Bem vindo a criação de partidas de futebol</h1>
+    </div>
+
+    <section id="container">
+        <form id="form" action="http://localhost:3000/" method="post">
+
+            <div>
+                <h2 id="title-form">Cadastrar partida</h2>
+            </div>
+
+            <div class="elementos">
+                <label for="input-titulo"><b>Titulo:</b></label>
+                <input type="text" name="titulo" id="input-titulo" placeholder="insira o titulo da partida" required>
+                <br>
+            </div>
+
+            <div class="elementos">
+                <label for="input-local"><b>Local:</b></label>
+                <input type="text" name="local" id="input-local" placeholder="insira o local da partida" required>
+                <br>
+            </div>
+
+            <div class="elementos">
+                <label for="input-dataHora"><b>Data e Hora do evento:</b></label>
+                <input type="datetime-local" name="dataHora" id="input-dataHora" placeholder="insira a data e o local da partida" required>
+                <br>
+            </div>
+
+            <div class="elementos">
+                <button id="button-home" type="submit">Criar partida</button>
+            </div>
+        </form>
+    </section>
+
+    <div id="footer-page">
+        <h3>
+            Para continuar na mesma partida clique aqui
+        </h3>
+        <button id="button-home" type="submit"><a href="http://localhost:3000/listarPartidas">Clique aqui</a></button>
+    </div>
+    
+</html>

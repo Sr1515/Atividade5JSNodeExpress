@@ -1,0 +1,86 @@
+body {
+    background-color: #b3c5d7;
+}
+
+#topo-page {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    padding-top: 80px;
+}
+
+#form {
+    border: 2px solid;
+    padding: 30px;
+    background-color: #bad7f2;
+}
+
+#title-form {
+    font-size: 30px;
+    padding-top: -20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.elementos {
+    padding-bottom: 30px;
+}
+
+label {
+    font-size: 20px;
+}
+
+#input-titulo {
+    width: 400px;
+    height: 35px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#input-local {
+    width: 400px;
+    height: 35px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#input-dataHora {
+    width: 210px;
+    height: 35px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#button-home {
+    height: 40px;
+    width: 200px;
+    background-color: #f6ae2d;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+#button-footer {
+    height: 40px;
+    width: 200px;
+    background-color: #f6ae2d;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+#footer-page {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
