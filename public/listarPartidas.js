@@ -95,7 +95,7 @@ window.addEventListener("load", () => {
 
       const botaoEntrar = document.createElement("button");
       botaoEntrar.textContent = "Acessar";
-      botaoEntrar.style.backgroundColor = "green";
+      botaoEntrar.style.backgroundColor = "greenyellow";
       botaoEntrar.style.borderRadius = "25px"
       botaoEntrar.style.fontSize = "19px"
 
@@ -121,7 +121,7 @@ window.addEventListener("load", () => {
       botaoDeletar.addEventListener("click", function () {
         fetch(`/lista/${element.titulo}`, {method: "DELETE"})
         .then(() => {
-          window.location.replace("http://localhost:3000/");
+          window.location.replace("http://localhost:3000/listarPartidas");
         });
       });
 

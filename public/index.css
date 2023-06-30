@@ -37,6 +37,19 @@ label {
     font-size: 20px;
 }
 
+#button-voltar{
+    background-color: greenyellow;
+    height: 40px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: 20px;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
 #inserir-dados {
     padding-top: 60px;
     display: flex;

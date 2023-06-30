@@ -81,7 +81,6 @@ app.get("/listaObjeto", (req, res) => {
 app.get("/listaObjetoId", (req, res) => {
     lerArquivos()
     .then((arquivo) => {
-        console.log(cache)
         arquivo.forEach(element => {
             if (element.titulo == cache.titulo){
                 res.json(element);
@@ -153,8 +152,6 @@ app.delete("/jogador/:telefone", (req, res) => {
                 }) 
             }
         });
-
-        console.log(novoArray);
 
         novoArquivo.forEach(items => {
             console.log(items)

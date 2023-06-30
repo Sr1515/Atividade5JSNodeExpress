@@ -94,7 +94,6 @@ window.addEventListener("load", () => {
     jogador*/ 
     jogadores.forEach(element => {
       
-      console.log(element);
       /* cria uma linha da tabela e e adiciona estilização para
       o conteúdo de cada td*/
       const elemento = document.createElement("tr");
@@ -162,7 +161,7 @@ window.addEventListener("load", () => {
       buttonDeletePartida.addEventListener("click", function () {
         fetch(`/lista/${arquivoJson.titulo}`, {method: "DELETE"})
         .then(() => {
-          window.location.replace("http://localhost:3000/");
+          window.location.replace("http://localhost:3000/listarPartidas");
         });
       });
 
