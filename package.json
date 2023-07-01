@@ -2,10 +2,10 @@
   "name": "atv5js",
   "version": "1.0.0",
   "description": "Atividade 5 de JS",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon app.js"
   },
   "author": "João Victor",
   "license": "ISC",

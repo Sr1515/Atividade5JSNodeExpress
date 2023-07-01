@@ -2,90 +2,89 @@ body {
     background-color: #b3c5d7;
 }
 
-
-#title {
-    font-size: 25px;
+#topo-page {
     display: flex;
+    color: black;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-label {
-    font-size: 20px;
-    color: black;
-}
-
-
-#informacoes {
+#container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     flex-wrap: wrap-reverse;
-    padding-top: 30px;
-    font-size: 20px;
-    padding-bottom: 60px;
-    margin-left: 10px;
+    padding-top: 80px;
 }
 
-#button-delete{
-    background-color: red;
-    height: 40px;
-    width: 150px;
-    border-radius: 25px;
+#form {
+    border: 2px solid;
+    padding: 30px;
+    background-color: #bad7f2;
+}
+
+#title-form {
+    font-size: 30px;
+    padding-top: -20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.elementos {
+    padding-bottom: 30px;
+}
+
+label {
     font-size: 20px;
 }
 
-#button-voltar{
-    background-color: greenyellow;
+#input-titulo {
+    width: 400px;
+    height: 35px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#input-local {
+    width: 400px;
+    height: 35px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#input-dataHora {
+    width: 210px;
+    height: 35px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#button-home {
     height: 40px;
-    width: 150px;
+    width: 200px;
+    background-color: #f6ae2d;
     border-radius: 25px;
     font-size: 20px;
-    
 }
 
 a {
     text-decoration: none;
 }
 
-#inserir-dados {
-    padding-top: 60px;
+#button-footer {
+    height: 40px;
+    width: 200px;
+    background-color: #f6ae2d;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+#footer-page {
+    font-size: 18px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-
-#button-dados {
-    width: 150px;
-    height: 35px;
-    border-radius: 25px;
-    font-size: 20px;
-    background-color: #f6ae2d;
-}
-
-#nomeJogador {
-    width: 300px;
-    height: 25px;
-    border-radius: 20px;
-    text-align: center;
-}
-
-#telefoneJogador {
-    width: 300px;
-    height: 25px;
-    border-radius: 20px;
-    text-align: center;
-}
- 
-#tabela-centra {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-} 

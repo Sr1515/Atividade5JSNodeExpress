@@ -126,9 +126,9 @@ window.addEventListener("load", () => {
       });
 
       botaoEntrar.addEventListener("click", function () {
-        fetch(`/pegarElemento/${element.titulo}`, {method: "GET"})
+        fetch(`/pegarReferencia/${element.titulo}`, {method: "GET"})
         .then(() =>{
-            window.location.replace("http://localhost:3000/lista");
+            window.location.replace("http://localhost:3000/lista.html");
         })
       });
     });      
