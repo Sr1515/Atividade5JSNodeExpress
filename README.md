@@ -3,5 +3,7 @@
 Projeto para a atividade 5 da cadeira de Linguagens de Script para a Web
 Discente: João Victor Rocha de Souza
 
-
-Observação: não utilizar o nodemon na hora de rodar o projeto, ele de alguma forma dá um bug no projeto na hora de rodar, só instalei nas depedências, mas não cheguei a utilizar por que estava atrapalhando no desenvolvimento
+Instruções:
++ clonar o respositório ou baixar em zip
++ abrir o terminal dentro da pasta e dar o comando "npm i"
++ depois dar o comando "npm start"
